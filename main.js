@@ -89,7 +89,7 @@ const displayJsContent = () => {
  * Calls `displayContent` with the current HTML content and updates the active tab using `setActive`.
  */
 const displayHtmlContent = () => {
-    displayContent(htmlContent);  
+    displayContent(htmlContent);     
     setActive(html);
     
 }
