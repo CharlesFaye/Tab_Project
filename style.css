@@ -1,4 +1,16 @@
 .active {
     color: blue;
-    background-color: white;
+    background-color: #fff;
+}
+.animate {
+    animation: slideIn 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
