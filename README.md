@@ -5,6 +5,7 @@ This is a simple and interactive tab interface project. It allows users to switc
 ## Features
 
 - Clickable tabs to switch between content sections
+- Smooth animations
 - Fully responsive design
 - Built with accessibility and simplicity in mind
 - Easy to customize and reuse
