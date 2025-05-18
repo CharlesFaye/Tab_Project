@@ -12,7 +12,7 @@ This is a simple and interactive tab interface project. It allows users to switc
 
 ## Demo
 
-👉 [Live Demo](https://tab-project-kappa.vercel.app/)  
+👉 [Live Demo](https://tab-project-kxhj58ew5-charles-fayes-projects.vercel.app/)  
 
 ## Installation
 
