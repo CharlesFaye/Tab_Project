@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+    <title>Tabs</title>
+</head>
+<body>
+    <div id="wrapper" class="mx-auto my-50 w-1/2 shadow-2xs p-5 bg-gray-50">
+        <div id="filter-content" class="flex gap-1 border-b pb-5">
+            <p  class="text-xl text-white bg-black p-4 cursor-pointer active filter" data-filter="html">HTML</p>
+            <p  class="text-xl text-white bg-black p-4 cursor-pointer filter" data-filter="css">CSS</p>
+            <p  class="text-xl text-white bg-black p-4 cursor-pointer filter" data-filter="js">JavaScript</p>
+        </div>
+        <div id="content">
+            <div id="html">
+                <h1 class="text-2xl my-5">HTML</h1>
+                <p class="mb-5">HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).</p>
+                <p>"Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.
+
+</p>
+            </div>
+            <div id="css" class="hidden">
+                <h1 class="text-2xl my-5">CSS</h1>
+                <p class="mb-5">Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+                <p>CSS is among the core languages of the open web and is standardized across Web browsers according to W3C specifications. Previously, the development of various parts of CSS specification was done synchronously, which allowed the versioning of the latest recommendations. You might have heard about CSS1, CSS2.1, or even CSS3. There will never be a CSS3 or a CSS4; rather, everything is now just "CSS" with individual CSS modules having version numbers.</p>
+            </div>
+            <div id="javascript" class="hidden">
+                <h1 class="text-2xl my-5">JavaScript</h1>
+                <p class="mb-5">JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive (e.g., having complex animations, clickable buttons, popup menus, etc.). There are also more advanced server side versions of JavaScript such as Node.js, which allow you to add more functionality to a website than downloading files (such as realtime collaboration between multiple computers). Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
